@@ -6515,7 +6515,9 @@ SpurMemoryManager >> hiddenRootSlots [
 
 { #category : 'accessing' }
 SpurMemoryManager >> hiddenRootsObject [
-	^hiddenRootsObj
+
+	<api>
+	^ hiddenRootsObj
 ]
 
 { #category : 'header format' }
